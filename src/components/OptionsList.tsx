@@ -64,8 +64,8 @@ const useStyles = makeStyles((theme: Theme) =>
 
 const protectedAssetDefault: ProtectedAsset = {
   priceInUSD: 0,
-  symbol: ETH_ASSETS.uni.symbol,
-  address: ETH_ASSETS.uni.address,
+  symbol: ETH_ASSETS.weth.symbol,
+  address: ETH_ASSETS.weth.address,
 };
 
 const OptionsList: React.FunctionComponent = () => {

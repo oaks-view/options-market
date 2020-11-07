@@ -84,7 +84,7 @@ function Row(props: RowProps) {
           </IconButton>
         </TableCell>
         <TableCell component="th" scope="row">
-          Unknown row
+          NA
         </TableCell>
         <TableCell align="center">NA</TableCell>
         <TableCell align="center">{option.strikePriceValue || 'NA'}</TableCell>
